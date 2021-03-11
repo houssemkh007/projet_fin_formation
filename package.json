@@ -1,0 +1,20 @@
+{
+  "name": "authentification",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "concurrently \" cd backend && npm run dev\" \"cd client && npm start\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.0.0",
+    "devextreme": "^20.2.5",
+    "devextreme-react": "^20.2.5",
+    "igniteui-react-core": "^16.13.0",
+    "igniteui-react-grids": "^16.13.0",
+    "igniteui-react-inputs": "^16.13.0",
+    "sass": "^1.32.8"
+  }
+}

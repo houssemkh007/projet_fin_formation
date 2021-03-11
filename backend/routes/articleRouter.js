@@ -1,0 +1,10 @@
+const { Create_art, Read_art, Update_art,Delete_art } = require('../controllers/articleController')
+// const { registerRoutes, validator, loginRoutes } = require('../middleware/bodyValidator')
+// const isAuth = require('../middleware/isAuth')
+const express = require('express')
+const router = express.Router()
+router.post('/Addarticle',Create_art)
+router.get('/ReadArticle',Read_art)
+router.put('/article/:id',Update_art)
+router.delete('/article/:id',Delete_art)
+module.exports=router
